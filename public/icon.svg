@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <radialGradient id="rift-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0c0a13" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="50%" stop-color="#c99b52"/>
+      <stop offset="100%" stop-color="#785523"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="#0c0a13" rx="100"/>
+
+  <!-- Outer Plate -->
+  <circle cx="256" cy="256" r="215" fill="#171126" stroke="url(#gold-rim)" stroke-width="14"/>
+
+  <!-- Glow Field -->
+  <circle cx="256" cy="256" r="180" fill="url(#rift-glow)"/>
+
+  <!-- Crossed Blades -->
+  <path d="M156 156 L356 356" stroke="#f4ede1" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+  <path d="M356 156 L156 356" stroke="#f4ede1" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Rift Eye / Vertical Dimensional Slit -->
+  <path d="M256 90 Q140 256 256 422 Q372 256 256 90 Z" fill="#a855f7" stroke="#e9d5ff" stroke-width="6"/>
+
+  <!-- Inner Void Core -->
+  <ellipse cx="256" cy="256" rx="42" ry="72" fill="#fde68a"/>
+  <ellipse cx="256" cy="256" rx="18" ry="40" fill="#0c0a13"/>
+</svg>

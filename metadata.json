@@ -1,0 +1,6 @@
+{
+  "name": "Shadow Rift",
+  "description": "A dark-fantasy top-down action RPG featuring procedurally generated themed dungeons, real-time melee and arcane combat, material crafting at the Rift Forge, and a three-branch skill tree.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
